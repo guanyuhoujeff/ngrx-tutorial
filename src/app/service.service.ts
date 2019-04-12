@@ -15,8 +15,8 @@ export class ServiceService {
     // return this._http.get('api/students', { params });
     return this._http.get('api/students');
   }
-  searchIdentity(query) {
-    return this._http.post('api/search_identity', query);
+  postStudent(query) {
+    return this._http.post('api/post_student', query);
   }
 
 }
